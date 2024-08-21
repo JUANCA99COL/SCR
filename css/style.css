@@ -6,12 +6,12 @@
     padding: 0;
  }
 
-html,body {
+html, body {
     background-color: #040404;
     font-family: "Montserrat", sans-serif;
     max-width: 100%;
-    /* overflow-x: hidden; */
     scroll-behavior: smooth;
+    position:relative;
 }
 
 h1 {
@@ -436,6 +436,9 @@ label {
     font-size: 35px;
     cursor: pointer;
     margin: 10px;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 10px;
 }
 
 .fa-circle-arrow-up:hover {
@@ -445,6 +448,10 @@ label {
 .arrow a {
     text-decoration: none;
     color: #040404;
+}
+
+.arrow {
+    margin-top: 32px;
 }
 
 /* DESKTOPS  */
@@ -506,6 +513,10 @@ label {
     .abt-img {
         width: 75%;
     }
+
+    .arrow {
+        margin-top: 33px;
+    }
 }
 
 
@@ -565,6 +576,10 @@ label {
 
     .why-parent {
         margin-bottom: 50px;
+    }
+
+    .arrow {
+        margin-top: 35px;
     }
 }
 
